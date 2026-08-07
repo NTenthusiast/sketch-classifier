@@ -154,16 +154,32 @@ export const categoryGroups = [
 export const categories = categoryGroups.flatMap((group) => group.categories);
 
 export const suggestedCategories = [
+  // 简单题（10个）
   "cat",
-  "umbrella",
-  "bicycle",
-  "guitar",
-  "sailboat",
+  "dog",
+  "panda",
+  "apple",
+  "banana",
+  "sun",
+  "moon",
+  "star",
   "flower",
-  "pizza",
-  "clock",
+  "tree",
+  // 中等题（10个）
   "elephant",
+  "car",
+  "airplane",
+  "birthday cake",
+  "cup",
+  "umbrella",
+  "house",
+  "fish",
+  "butterfly",
+  "penguin",
+  // 较难题（5个）
+  "giraffe",
+  "guitar",
+  "bicycle",
   "rainbow",
-  "helicopter",
-  "ice cream",
+  "snowflake",
 ];
