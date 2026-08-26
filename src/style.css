@@ -525,6 +525,16 @@ svg {
   letter-spacing: -0.04em;
 }
 
+.draw-prompt {
+  margin: 0;
+  color: var(--muted);
+  font-size: 16px;
+}
+
+.draw-prompt strong {
+  color: var(--ink);
+}
+
 .live-pill,
 .latency-pill {
   display: inline-flex;

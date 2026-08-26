@@ -4,6 +4,7 @@
       <div>
         <span class="eyebrow">01 · Your input</span>
         <h2 id="drawing-title">Draw it your way</h2>
+        <p class="draw-prompt">Try a <strong>{{ prompt }}</strong></p>
       </div>
       <span class="live-pill" :class="{ ready: modelReady }">
         <span class="status-dot" aria-hidden="true"></span>
@@ -36,7 +37,6 @@
 
     <div class="draw-footer">
       <p>
-        Try a <strong>{{ prompt }}</strong>
         <button class="text-button" type="button" @click="$emit('shuffle')">
           New prompt
         </button>
